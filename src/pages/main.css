@@ -4,9 +4,16 @@ body{
 p{
     font-size: 18px;
 }
+h1{
+    font-size: 72px;
+    font-weight: 700;
+}
 h2{
-    font-size: 36px;
-    font-weight: 500;
+    font-size: 56px;
+    font-weight: 700;
+}
+h3{
+    font-size: 44px;
 }
 .bg-light-blue{
     background-color: #b1d8fc;
@@ -98,4 +105,10 @@ h2{
 }
 .img-blue img{
     height: 130px;
+}
+.bg-dark .icons{
+    height: 70px;
+}
+.bg-dark h3{
+    font-size: 30px;
 }
