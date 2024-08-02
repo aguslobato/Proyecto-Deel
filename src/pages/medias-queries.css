@@ -2,9 +2,42 @@
     .list-sponsors{
         grid-template-columns: repeat(5, 1fr);
     }
+    .bg-dark h3{
+        font-size: 20px;
+    }
+    .cards-color .card{
+        min-height: auto;
+        height: auto;
+        max-height: 800px;
+    }
 }
 @media (max-width: 550px) {
     .list-sponsors{
         grid-template-columns: repeat(3, 1fr);
+    }
+    h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .img-blue h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .cards-color .card{
+        min-height: auto;
+        height: auto;
+        max-height: 800px;
+    }
+    .bg-dark h3{
+        font-size: 15px;
+    }
+    p{
+        font-size: 15px;
     }
 }

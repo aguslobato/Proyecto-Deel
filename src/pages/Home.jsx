@@ -216,15 +216,15 @@ function Home () {
                         </div>
                     </div>
                     <div className="row py-5">
-                        <div className="col-12 col-lg-4 p-lg-3 text-start py-5">
+                        <div className="col-4 p-lg-3 text-start py-5">
                             <img src="https://deel-website-media-prod.s3.amazonaws.com/Legal_Updates_f7153a4d00.png" className='img-fluid rounded-4' alt="" />
                             <h3 className='my-3'>Lleva un registro de las ultimas actualizaciones legales</h3>
                         </div>
-                        <div className="col-12 col-lg-4 p-lg-3 text-start py-5">
+                        <div className="col-4 p-lg-3 text-start py-5">
                             <img src="https://deel-website-media-prod.s3.amazonaws.com/Workforce_Insights_ee62bbf42f.png" alt="" className="img-fluid rounded-4" />
                             <h3 className='my-3'>Obten informacion mensual sobre la fuerza laboral</h3>
                         </div>
-                        <div className="col-12 col-lg-4 p-lg-3 text-start py-5">
+                        <div className="col-4 p-lg-3 text-start py-5">
                             <img src="https://deel-website-media-prod.s3.amazonaws.com/Worker_Classification_0d445ad837.png" alt="" className="img-fluid rounded-4" />
                             <h3 className='my-3'>Determina facilmente la clasificacion de los trabajadores</h3>
                         </div>
@@ -238,32 +238,32 @@ function Home () {
                         </div>
                     </div>
                     <div className="row py-5 my-5">
-                        <div className="col-6 col-md-4 text-start my-5 p-lg-4">
+                        <div className="col-12 col-md-6 col-lg-4 text-md-start my-5 p-lg-4">
                             <img src="https://deel-website-media-prod.s3.amazonaws.com/Chart_392ccb9004.svg" alt="" className="img-fluid icons" />
                             <h4 className='mt-5 mb-2'>Informes Poderosos</h4>
                             <p>Desbloquea informacion inigualable sobre el gasto y el rendimiento con compensaciones, OKR, equity y mucho mas para tu equipo en un solo sistema.</p>
                         </div>
-                        <div className="col-6 col-md-4 text-start my-5 p-lg-4">
+                        <div className="col-12 col-md-6 col-lg-4 text-md-start my-5 p-lg-4">
                             <img src="https://deel-website-media-prod.s3.amazonaws.com/Asterisk_413ad7289b.svg" alt="" className="img-fluid icons" />
                             <h4 className='mt-5 mb-2'>Escalabilidad</h4>
                             <p>Desde trabajadores independientes y EOR hasta nominas y PEO, Deel es la unica plataforma que puede evolucionar con cada etapa de crecimiento de tu empresa.</p>
                         </div>
-                        <div className="col-6 col-md-4 text-start my-5 p-lg-4">
+                        <div className="col-12 col-md-6 col-lg-4 text-md-start my-5 p-lg-4">
                             <img src="https://deel-website-media-prod.s3.amazonaws.com/Messages_ffbdc2b1cd.svg" alt="" className="img-fluid icons" />
                             <h4 className='mt-5 mb-2'>Soporte Dedicado</h4>
                             <p>No dependemos de terceros, lo que significa que tendras un unico POC dedicado con el que trabajar y un FRT garantizado de 1.25 minutos.</p>
                         </div>
-                        <div className="col-6 col-md-4 text-start my-5 p-lg-4">
+                        <div className="col-12 col-md-6 col-lg-4 text-md-start my-5 p-lg-4">
                             <img src="https://deel-website-media-prod.s3.amazonaws.com/Avatars_fb897d467b.svg" alt="" className="img-fluid icons" />
                             <h4 className='mt-5 mb-2'>Partner de Confianza</h4>
                             <p>Interactua con un partner para tu crecimiento global. Desde fusiones y adquisiciones hasta configuracion de entidades colabora con nuestro equipo interno para todas tus necesidades de expansion.</p>
                         </div>
-                        <div className="col-6 col-md-4 text-start my-5 p-lg-4">
+                        <div className="col-12 col-md-6 col-lg-4 text-md-start my-5 p-lg-4">
                             <img src="https://deel-website-media-prod.s3.amazonaws.com/Integration_81276006e7.svg" alt="" className="img-fluid icons" />
                             <h4 className='mt-5 mb-2'>Integración perfecta</h4>
                             <p>Elimina los silos de datos y reduce el trabajo manual con más de 100 integraciones en todo tu stack tecnológico, desde la contabilidad hasta los gastos.</p>
                         </div>
-                        <div className="col-6 col-md-4 text-start my-5 p-lg-4">
+                        <div className="col-12 col-md-6 col-lg-4 text-md-start my-5 p-lg-4">
                             <img src="https://deel-website-media-prod.s3.amazonaws.com/Lock_00a2c2eb46.svg" alt="" className="img-fluid icons" />
                             <h4 className='mt-5 mb-2'>Seguridad inigualable</h4>
                             <p>Conecta tu empresa en una única plataforma segura. Nuestra plataforma cumple con el GDPR, SOC2 e ISO 27001.</p>
@@ -272,14 +272,35 @@ function Home () {
                 </div>
             </section>
 
-            <section className="bg-cream">
-                <div className="container container-bg-cream">
-                    <div className="row">
-                        <div className="col-12">
-                            <span>COBERTURA GLOBAL</span>
-                            <h2>El talento que necesitas esta en todo el mundo ¿Por que no contratar en cualquier parte?</h2>
-                            <p>Mas de 150 entidades. Mas de 200 expertos legales locales. Global desde el primer dia. Aprovecha la cobertura mas amplia del mercado y comienza a contratar, incorporar y pagar en cualquier lugar.</p>
+            <section className="bg-cream py-5 text-start">
+                <div className="container-bg-cream">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-md-6">
+                                <span>COBERTURA GLOBAL</span>
+                                <h3 className='mt-3'>El talento que necesitas esta en todo el mundo ¿Por que no contratar en cualquier parte?</h3>
+                                <p className='my-4 mb-5'>Mas de 150 entidades. Mas de 200 expertos legales locales. Global desde el primer dia. Aprovecha la cobertura mas amplia del mercado y comienza a contratar, incorporar y pagar en cualquier lugar.</p>
+                                <a href="" className="link-black">Comenzar</a>
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 col-md-6 offset-md-3">
+                            <span>CASOS DE CLIENTES</span>
+                            <h3>Hemos ayudado a mas de 35,000 empresas a crecer y gestionar equipos globales</h3>
+                        </div>
+                        <ul className='nav justify-content-center align-self-center py-5'>
+                            <li><a href="" className="link-black">Contratacion global</a></li>
+                            <li><a href="">Global Payroll</a></li>
+                            <li><a href="">Compliance</a></li>
+                            <li><a href="">Re-localizacion de colaboradores</a></li>
+                            <li><a href="">Fusiones/adquisiciones</a></li>
+                        </ul>
                     </div>
                 </div>
             </section>

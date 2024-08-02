@@ -15,12 +15,27 @@ h2{
 h3{
     font-size: 44px;
 }
+span{
+    color: #868686;
+    font-size: 14px;
+    font-weight: 500;
+}
 .bg-light-blue{
     background-color: #b1d8fc;
 }
 .bg-dark{
     background-color: #1b1b1b !important;
     color: white;
+}
+.bg-cream{
+    background-color: #ffeba6;
+    height: 1000px;
+}
+.container-bg-cream{
+    background-image: url(https://deel-website-media-prod.s3.amazonaws.com/Coverage_Illustration_min_0a71b2d215.png);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
 }
 .sponsor{
     height: 56px;
