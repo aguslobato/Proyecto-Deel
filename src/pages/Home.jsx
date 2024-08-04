@@ -296,23 +296,23 @@ function Home () {
                         </div>
                         <div className="col-12">
                             <div className="row justify-content-center p-3">
-                                <ul class="nav justify-content-center my-5 mini-nav col-12 col-md-9">
-                                    <li class="nav-item">
-                                        <a class="nav-link link-black" aria-current="page" href="#">Contratacion global</a>
+                                <ul class="nav nav-tabs justify-content-center my-5 mini-nav col-12 col-md-9">
+                                    <li class="nav-item my-1">
+                                        <a class="nav-link link-black rounded-5" aria-current="page" href="#">Contratacion global</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item my-1">
                                         <a class="nav-link" href="#">Global Payroll</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item my-1">
                                         <a class="nav-link" href="#">Compliance</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item my-1">
                                         <a class="nav-link" href="#">Re-localizacion de colaboradores</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item my-1">
                                         <a class="nav-link" href="#">Fusiones/adquisiciones</a>
                                     </li>
-                                </ul>                            
+                                </ul>                      
                             </div>                            
                         </div>
                     </div>
