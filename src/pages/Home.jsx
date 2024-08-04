@@ -67,7 +67,7 @@ function Home () {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-12 col-md-6">
+                        <div className="col-12 col-xl-6">
                             <h3>Por que las empresas de todo el mundo prefieren Deel para expandir su equipo a nivel mundial.</h3>
                         </div>
                         <div className="col-12 border-bottom py-5">
@@ -287,20 +287,91 @@ function Home () {
                 </div>
             </section>
 
-            <section>
-                <div className="container">
+            <section className='bg-pink py-5'>
+                <div className="container py-5">
                     <div className="row">
                         <div className="col-12 col-md-6 offset-md-3">
                             <span>CASOS DE CLIENTES</span>
                             <h3>Hemos ayudado a mas de 35,000 empresas a crecer y gestionar equipos globales</h3>
                         </div>
-                        <ul className='nav justify-content-center align-self-center py-5'>
-                            <li><a href="" className="link-black">Contratacion global</a></li>
-                            <li><a href="">Global Payroll</a></li>
-                            <li><a href="">Compliance</a></li>
-                            <li><a href="">Re-localizacion de colaboradores</a></li>
-                            <li><a href="">Fusiones/adquisiciones</a></li>
-                        </ul>
+                        <div className="col-12">
+                            <div className="row justify-content-center p-3">
+                                <ul class="nav justify-content-center my-5 mini-nav col-12 col-md-9">
+                                    <li class="nav-item">
+                                        <a class="nav-link link-black" aria-current="page" href="#">Contratacion global</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Global Payroll</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Compliance</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Re-localizacion de colaboradores</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Fusiones/adquisiciones</a>
+                                    </li>
+                                </ul>                            
+                            </div>                            
+                        </div>
+                    </div>
+                    <div className="row py-5 my-5">
+                        <div className="col-12 col-lg-7 my-3">
+                            <img src="https://deel-website-media-prod.s3.amazonaws.com/Turing_min_9a47ee9e29.jpg" alt="" className="img-fluid" />
+                        </div>
+                        <div className="col-12 col-lg-5 my-3 card-absolute align-self-center">
+                            <div className="card border-0 rounded-4 p-5 text-start">
+                                <h1>5,000+</h1>
+                                <h3>contratos creados</h3>
+                                <p className="my-4">Turing tiene alrededor de 400 desarrolladores que trabajan para clientes y 150 desarrolladores que trabajan para construir Turing. Pudieron migrar a todos a Deel en dias. Ahora utilizan Deel para gestionar, pagar e incorporar a cada desarrollador, en mas de 60 paises.</p>
+                                <a href="" className="link-outline-white border-0 px-0 m-0">Leer la historia del cliente</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <h2>Empieza a usar Deel en tres sencillos pasos</h2>
+                        <div className="col-12 col-lg-6 py-4">
+                            <div className="row text-start">
+                                <div className="col-12">
+                                    <div className="card card-transparent border-0 my-3">
+                                        <div className="card-head d-flex">
+                                            <h4 className="card-blue me-3">1</h4>
+                                            <h4>Programa una llamada</h4>
+                                        </div>
+                                        <div className="card-body py-0 border-left">
+                                            <p>Programa una llamada con nuestros consultores de fuerza laboral global. Te configuraremos una cuenta gratuita lista para satisfacer las necesidades de tu equipo.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-12">
+                                    <div className="card card-transparent border-0 my-3">
+                                        <div className="card-head d-flex">
+                                            <h4 className="card-blue me-3">2</h4>
+                                            <h4>Agrega a tu personal</h4>
+                                        </div>
+                                        <div className="card-body py-0 border-left">
+                                            <p>Desde nuevos empleados hasta tu fuerza laboral existente, incorpora sin esfuerzo con nuestra plataforma de autoservicio.</p>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-12">
+                                    <div className="card card-transparent border-0 my-3">
+                                        <div className="card-head d-flex">
+                                            <h4 className="card-blue me-3">3</h4>
+                                            <h4>Onboarding dedicado</h4>
+                                        </div>
+                                        <div className="card-body py-0 border-left">
+                                             <p>Desde conocer las leyes locales hasta ayudar a los miembros de tu equipo, nuestro equipo especializado te ayudara a prepararte sin problemas.</p>
+                                            <a href="" className="link-black">Comenzar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-6 py-4 align-self-center">
+                            <img src="https://deel-website-media-prod.s3.amazonaws.com/Bar_Graph_Window_9c570c3eda.png" alt="" className="img-fluid" />
+                        </div>
                     </div>
                 </div>
             </section>

@@ -31,6 +31,9 @@ span{
     background-color: #ffeba6;
     height: 1000px;
 }
+.bg-pink{
+    background-color: #fef5e6;
+}
 .container-bg-cream{
     background-image: url(https://deel-website-media-prod.s3.amazonaws.com/Coverage_Illustration_min_0a71b2d215.png);
     background-size: cover;
@@ -62,10 +65,20 @@ span{
     transition: all 0.7s;
     color: white;
 }
+.link-outline-white{
+    font-weight: 500;
+    text-decoration: none;
+    color: #1b1b1b;
+    transition: all 0.5s;
+}
+.link-outline-white:hover{
+    transition: all 0.5s;
+    color: #868686;
+}
 .link-black{
     background-color: #1b1b1b;
     text-decoration: none;
-    color: white;
+    color: white !important;
     padding: 8px 15px;
     border-radius: 40px;
     border: 1px solid gray;
@@ -74,6 +87,12 @@ span{
 .link-black:hover{
     background-color: rgb(88, 88, 88);
     transition: all 0.7s;
+}
+.mini-nav a{
+    color: #868686;
+}
+.mini-nav a:hover{
+    color: #1b1b1b;
 }
 .mini-cards-color .card{
     min-height: 300px;
@@ -111,12 +130,12 @@ span{
 .img-blue .row{
     height: 200px;
 }
+.img-blue p{
+    font-size: 15px;
+}
 .img-blue h1{
     font-size: 70px;
     font-weight: 700;
-}
-.img-blue p{
-    font-size: 15px;
 }
 .img-blue img{
     height: 130px;
@@ -126,4 +145,23 @@ span{
 }
 .bg-dark h3{
     font-size: 30px;
+}
+.mini-nav{
+    border: 1px solid #868686;
+    border-radius: 30px;
+}
+.card-transparent{
+    background-color: transparent;
+}
+.card-body{
+    border-left: 1px solid #c0c0c0;
+    margin: 0 15px;
+}
+.card-head .card-blue{
+    background-color: #B1D8FC;
+    border-radius: 50%;
+}
+.card-transparent .card-head h4{
+    padding: 10px;
+    margin-bottom: 0.5rem;
 }
