@@ -20,6 +20,15 @@
         z-index: 44;
         left: -15%;
     }
+    .dropdown-menu.show {
+        display: flex;
+        width: 800px;
+        border-radius: 30px;
+        padding: 30px;
+    }
+    .dropdown-left .dropdown-menu.show{
+        left: -200px;
+    }
 }
 @media (max-width: 550px) {
     .list-sponsors{

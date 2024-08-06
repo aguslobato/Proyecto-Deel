@@ -138,7 +138,8 @@ span{
     font-weight: 700;
 }
 .img-blue img{
-    height: 130px;
+    max-height: 130px;
+    height: auto;
 }
 .bg-dark .icons{
     height: 70px;

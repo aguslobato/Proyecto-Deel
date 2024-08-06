@@ -298,7 +298,7 @@ function Home () {
                             <div className="row justify-content-center p-3">
                                 <ul class="nav nav-tabs justify-content-center my-5 mini-nav col-12 col-md-9">
                                     <li class="nav-item my-1">
-                                        <a class="nav-link link-black rounded-5" aria-current="page" href="#">Contratacion global</a>
+                                        <a class="nav-link link-black rounded-3" aria-current="page" href="#">Contratacion global</a>
                                     </li>
                                     <li class="nav-item my-1">
                                         <a class="nav-link" href="#">Global Payroll</a>
