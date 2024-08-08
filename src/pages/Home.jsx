@@ -1,5 +1,5 @@
-import './main.css'
-import './medias-queries.css'
+import './Main.css'
+import './Medias-queries.css'
 
 
 function Home () {
