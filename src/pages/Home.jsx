@@ -295,40 +295,106 @@ function Home () {
                             <h3>Hemos ayudado a mas de 35,000 empresas a crecer y gestionar equipos globales</h3>
                         </div>
                         <div className="col-12">
-                            <div className="row justify-content-center p-3">
-                                <ul class="nav nav-tabs justify-content-center my-5 mini-nav col-12 col-md-9">
-                                    <li class="nav-item my-1">
-                                        <a class="nav-link link-black rounded-3" aria-current="page" href="#">Contratacion global</a>
-                                    </li>
-                                    <li class="nav-item my-1">
-                                        <a class="nav-link" href="#">Global Payroll</a>
-                                    </li>
-                                    <li class="nav-item my-1">
-                                        <a class="nav-link" href="#">Compliance</a>
-                                    </li>
-                                    <li class="nav-item my-1">
-                                        <a class="nav-link" href="#">Re-localizacion de colaboradores</a>
-                                    </li>
-                                    <li class="nav-item my-1">
-                                        <a class="nav-link" href="#">Fusiones/adquisiciones</a>
-                                    </li>
-                                </ul>                      
+                            <div className="row justify-content-center p-3">    
+                                <nav>
+                                    <div class="nav mini-nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                                        <button class="nav-link my-1 me-lg-1 active rounded-4" id="nav-contratacion-tab" data-bs-toggle="tab" data-bs-target="#nav-contratacion" type="button" role="tab" aria-controls="nav-contratacion" aria-selected="true">Contratacion global</button>
+                                        <button class="nav-link my-1 rounded-4 me-lg-1" id="nav-global-tab" data-bs-toggle="tab" data-bs-target="#nav-global" type="button" role="tab" aria-controls="nav-global" aria-selected="false">Global Payroll</button>
+                                        <button class="nav-link my-1 rounded-4 me-lg-1" id="nav-compliance-tab" data-bs-toggle="tab" data-bs-target="#nav-compliance" type="button" role="tab" aria-controls="nav-compliance" aria-selected="false">Compliance</button>
+                                        <button class="nav-link my-1 rounded-4 me-lg-1" id="nav-localizacion-tab" data-bs-toggle="tab" data-bs-target="#nav-localizacion" type="button" role="tab" aria-controls="nav-localizacion" aria-selected="false">Re-localizacion de colaboradores</button>
+                                        <button class="nav-link my-1 rounded-4" id="nav-fusiones-tab" data-bs-toggle="tab" data-bs-target="#nav-fusiones" type="button" role="tab" aria-controls="nav-fusiones" aria-selected="false">Fusiones/adquisiciones</button>
+                                    </div>
+                                </nav>             
                             </div>                            
                         </div>
                     </div>
-                    <div className="row py-5 my-5">
-                        <div className="col-12 col-lg-7 my-3">
-                            <img src="https://deel-website-media-prod.s3.amazonaws.com/Turing_min_9a47ee9e29.jpg" alt="" className="img-fluid" />
+
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-contratacion" role="tabpanel" aria-labelledby="nav-contratacion-tab" tabindex="0">
+                            <div className="row py-5 my-5">
+                                <div className="col-12 col-lg-7 my-3">
+                                    <img src="https://deel-website-media-prod.s3.amazonaws.com/Turing_min_9a47ee9e29.jpg" alt="" className="img-fluid" />
+                                </div>
+                                <div className="col-12 col-lg-5 my-3 card-absolute align-self-center">
+                                    <div className="card border-0 rounded-4 p-5 text-start">
+                                        <h1>5,000+</h1>
+                                        <h3>contratos creados</h3>
+                                        <p className="my-4">Turing tiene alrededor de 400 desarrolladores que trabajan para clientes y 150 desarrolladores que trabajan para construir Turing. Pudieron migrar a todos a Deel en días. Ahora utilizan Deel para gestionar, pagar e incorporar a cada desarrollador, en más de 60 países.</p>
+                                        <a href="" className="link-outline-white border-0 px-0 m-0">Leer la historia del cliente</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div className="col-12 col-lg-5 my-3 card-absolute align-self-center">
-                            <div className="card border-0 rounded-4 p-5 text-start">
-                                <h1>5,000+</h1>
-                                <h3>contratos creados</h3>
-                                <p className="my-4">Turing tiene alrededor de 400 desarrolladores que trabajan para clientes y 150 desarrolladores que trabajan para construir Turing. Pudieron migrar a todos a Deel en dias. Ahora utilizan Deel para gestionar, pagar e incorporar a cada desarrollador, en mas de 60 paises.</p>
-                                <a href="" className="link-outline-white border-0 px-0 m-0">Leer la historia del cliente</a>
+                        <div class="tab-pane fade" id="nav-global" role="tabpanel" aria-labelledby="nav-global-tab" tabindex="0">
+                            <div className="row py-5 my-5">
+                                <div className="col-12 col-lg-7 my-3">
+                                    <img src="https://deel-website-media-prod.s3.amazonaws.com/Change_min_f12c3d11d9.jpg" alt="" className="img-fluid" />
+                                </div>
+                                <div className="col-12 col-lg-5 my-3 card-absolute align-self-center">
+                                    <div className="card border-0 rounded-4 p-5 text-start">
+                                        <h1>300+</h1>
+                                        <h3>horas ahorradas mensualmente</h3>
+                                        <p className="my-4">TDesde que usan Global Payroll de Deel, Change.org ha ahorrado más de 300 horas de administración cada mes. También han aprovechado todos los servicios que ofrece Deel, incluido el uso de EOR para retener a los empleados que necesitan el patrocinio de una visa.</p>
+                                        <a href="" className="link-outline-white border-0 px-0 m-0">Leer la historia del cliente</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-compliance" role="tabpanel" aria-labelledby="nav-compliance-tab" tabindex="0">
+                            <div className="row py-5 my-5">
+                                <div className="col-12 col-lg-7 my-3">
+                                    <img src="https://deel-website-media-prod.s3.amazonaws.com/Project44_min_872a8d732d.jpg" alt="" className="img-fluid" />
+                                </div>
+                                <div className="col-12 col-lg-5 my-3 card-absolute align-self-center">
+                                    <div className="card border-0 rounded-4 p-5 text-start">
+                                        <h1>500k</h1>
+                                        <h3>ahorrados anualmente a través de Deel</h3>
+                                        <p className="my-4">Con Deel Shield, Project44 ha podido crear un proceso mucho más fluido y ofrecer a los miembros del equipo una mejor experiencia a través de una sola plataforma para todos. Todas las facturas se crean automáticamente y se pagan a la vez, lo que deja menos espacio para errores y retrasos.</p>
+                                        <a href="" className="link-outline-white border-0 px-0 m-0">Leer la historia del cliente</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-localizacion" role="tabpanel" aria-labelledby="nav-localizacion-tab" tabindex="0">
+                            <div className="row py-5 my-5">
+                                <div className="col-12 col-lg-7 my-3">
+                                    <img src="https://deel-website-media-prod.s3.amazonaws.com/Revolut_min_3d351c8eeb.jpg" alt="" className="img-fluid" />
+                                </div>
+                                <div className="col-12 col-lg-5 my-3 card-absolute align-self-center">
+                                    <div className="card border-0 rounded-4 p-5 text-start">
+                                        <h1>10+</h1>
+                                        <h3>trabajadores reubicados</h3>
+                                        <p className="my-4">Introducir nuevos mercados y expandirse a nivel mundial es fundamental para la misión de Revolut y algo que los destaca. Identificaron a Deel como partner que podría ayudarles a encontrar a las personas adecuadas para sus nuevos mercados.</p>
+                                        <a href="" className="link-outline-white border-0 px-0 m-0">Leer la historia del cliente</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-fusiones" role="tabpanel" aria-labelledby="nav-fusiones-tab" tabindex="0">
+                            <div className="row py-5 my-5">
+                                <div className="col-12 col-lg-7 my-3">
+                                    <img src="https://deel-website-media-prod.s3.amazonaws.com/EEG_min_b7d5e03593.jpg" alt="" className="img-fluid" />
+                                </div>
+                                <div className="col-12 col-lg-5 my-3 card-absolute align-self-center">
+                                    <div className="card border-0 rounded-4 p-5 text-start">
+                                        <h1>48+</h1>
+                                        <h3>miembros del equipo incorporados</h3>
+                                        <p className="my-4">La facilidad de uso, la sencillez y la eficacia de Deel ayudaron a EEG a renovar por completo su experiencia de onboarding. En lugar de tardar meses para establecer entidades, encontrar proveedores locales de nómina y especialistas laborales locales, Deel convierte la pesadilla logística de las fusiones y adquisiciones en un sueño hecho realidad.</p>
+                                        <a href="" className="link-outline-white border-0 px-0 m-0">Leer la historia del cliente</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+
+
+
+
+
+
+
+
                     <div className="row">
                         <h2>Empieza a usar Deel en tres sencillos pasos</h2>
                         <div className="col-12 col-lg-6 py-4">

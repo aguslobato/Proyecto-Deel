@@ -1,11 +1,14 @@
+import { Link } from 'react-router-dom';
 import './Components.css'
+import Pricing from '../pages/Pricing';
+import Home from '../pages/Home';
 
 function Navbar () {
     return (
         <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary d-none d-lg-block">
                 <div class="container">
-                    <a class="navbar-brand" href="#"><img src="https://cdn.asp.events/CLIENT_M_Media__147F6B18_D846_E6EB_60DAA8F6CE5A26EA/sites/FWS-2024/media/libraries/fowc-2024/Deel_logo_wordmark_black_no_backgr-(2).png/fit-in/700x9999/filters:no_upscale()" alt="" className="img-fluid logo" /></a>
+                    <Link class="navbar-brand" to='/'><img src="https://cdn.asp.events/CLIENT_M_Media__147F6B18_D846_E6EB_60DAA8F6CE5A26EA/sites/FWS-2024/media/libraries/fowc-2024/Deel_logo_wordmark_black_no_backgr-(2).png/fit-in/700x9999/filters:no_upscale()" alt="" className="img-fluid logo" /></Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -122,7 +125,6 @@ function Navbar () {
                                     </div>
                                 </div>
                             </div>
-                            <div className="fondo-nav"></div>
                         </li>
                         <li class="nav-item dropdown dropdown-left">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -263,6 +265,9 @@ function Navbar () {
                                     </div>
                                 </div>
                             </div>
+                        </li>
+                        <li class="nav-item">
+                            <Link class="nav-link" to='/pricing'>Precios</Link>
                         </li>
                     </ul>
                     <a href="" className="link-white me-3">Iniciar Sesion</a>
@@ -530,6 +535,9 @@ function Navbar () {
                                     </div>
                                 </div>
                             </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/Princing.jsx">Precios</a>
                         </li>
                     </ul>
                     <div className="d-flex justify-content-center">
