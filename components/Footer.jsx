@@ -1,200 +1,87 @@
 import './Components.css'
-import g2 from '../images/g2.png'
+
 
 function Footer () {
     return (
         <footer className='bg-dark py-5'>
             <div className="container">
-                <div className="row">
-                    <div className="col-12 py-5">
-                        <div className="row text-start">
-                            <div className="col-1"><img src={g2} alt="" className="img-fluid" /></div>
-                            <div className="col-11 align-self-center">
-                                <h3>Mira lo que dicen los clientes de Deel</h3>
-                                <p>Based on <a href="">3784+ reviews</a></p>
-                            </div>
-                        </div>
-                        <div className="row text-start">
-                            <div className="d-flex overflow-x-auto mini-cards-color">
-                                <div className="col-12 col-md-6 me-4 my-3">
-                                    <div className="card card-transparent border-0 d-flex flex-column p-4">
-                                        <h5>Usuario verificado en telecomunicaciones</h5>
-                                        <span>★★★★★</span>
-                                        <p>Deel ha revolucionado la forma en que gestiono la nómina. Es confiable, fácil de usar y rentable, por lo que también es indispensable...</p>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-6 me-4 my-3">
-                                    <div className="card card-transparent border-0 d-flex flex-column p-4">
-                                        <h5>Usuario verificado en telecomunicaciones</h5>
-                                        <span>★★★★</span>
-                                        <p>Deel ha sido un cambio radical para mí. Su plataforma es increíblemente fácil de usar. Desde la optimización de mi proceso de nómina hasta...</p>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-6 me-4 my-3">
-                                    <div className="card card-transparent border-0 d-flex flex-column p-4">
-                                        <h5>Usuario verificado en telecomunicaciones</h5>
-                                        <span>★★★★★</span>
-                                        <p>La plataforma es increíblemente intuitiva, lo que me facilita navegar y hacer las cosas de forma eficiente. Además de eso, su...</p>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-6 me-4 my-3">
-                                    <div className="card card-transparent border-0 d-flex flex-column p-4">
-                                        <h5>Usuario verificado en telecomunicaciones</h5>
-                                        <span>★★★★★</span>
-                                        <p>Hasta ahora ha sido muy fácil navegar por Deel y todo está diseñado con elegancia para que sea fácil de seguir.</p>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-6 my-3">
-                                    <div className="card card-transparent border-0 d-flex flex-column p-4">
-                                        <h5>Usuario verificado en telecomunicaciones</h5>
-                                        <span>★★★★★</span>
-                                        <p>Es fácil de usar y la seguridad es fabulosa.</p>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-6 me-4 my-3">
-                                    <div className="card card-transparent border-0 d-flex flex-column p-4">
-                                        <h5>Usuario verificado en telecomunicaciones</h5>
-                                        <span>★★★★★</span>
-                                        <p>Deel ha revolucionado la forma en que gestiono la nómina. Es confiable, fácil de usar y rentable, por lo que también es indispensable...</p>
-                                    </div>
-                                </div>
-                            </div>                                
+                <div className="row border-bottom py-5 text-start">
+                    <div className="col-12 col-md-auto py-2 my-3 my-md-0"><a href="" className='link-black'><i class='bx bx-world me-2'></i>Español</a></div>
+                    <div className="col-auto py-2"><a className='text-decoration-none' href="">Acerca de nosotros</a></div>
+                    <div className="col-auto py-2"><a className='text-decoration-none' href="">Customer Reviews</a></div>
+                    <div className="col-auto py-2"><a className='text-decoration-none' href="">Centro de ayuda</a></div>
+                    <div className="col-auto py-2"><a className='text-decoration-none' href="">Documentacion de la API</a></div>
+                    <div className="col-auto py-2"><a className='text-decoration-none' href="">Integraciones</a></div>
+                    <div className="col-auto py-2"><a className='text-decoration-none' href="">Blog de Deel</a></div>
+                    <div className="col-auto py-2"><a className='text-decoration-none' href="">Biblioteca de recursos</a></div>
+                    <div className="col-auto py-2"><a className='text-decoration-none' href="">Trabaja con nosotros</a></div>
+                </div>
+                <div className="row py-4 text-start border-bottom">
+                    <div className="col-12 col-md-3">
+                        <div className="row">
+                            <h6 className='fw-bold'>Empieza a usar Deel</h6>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">Precios</a></div>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">Nomina de EE. UU.</a></div>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">PEO</a></div>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">Deel Contratista registrado</a></div>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">Gestiona las fuerzas de trabajo globales</a></div>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">Contrata empleados</a></div>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">Contrata trabajadores independientes</a></div>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">Reubica trabajadores</a></div>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">API de Deel</a></div>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">Estado del servicio</a></div>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">Press (Prensa)</a></div>
                         </div>
                     </div>
-                    <div className="col-12 py-5 border-bottom">
-                        <div className="row text-start">
-                            <div className="col-12 col-lg-6">
-                                <h2>Deel.</h2>
-                                <ul class="nav col-12 col-md-9">
-                                    <li class="nav-item">
-                                        <a class="nav-link rounded-5 me-2 link-black" aria-current="page" href="#"><i class='bx bxl-twitter'></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link rounded-5 me-2" href="#"><i class='bx bxl-linkedin' ></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link rounded-5 me-2" href="#"><i class='bx bxl-facebook'></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link rounded-5" href="#"><i class='bx bxl-instagram' ></i></a>
-                                    </li>
-                                </ul>                            
-                            </div>
-                            <div className="d-none d-lg-block col-lg-2">
-                                <h5>Como funciona</h5>
-                                <ul className='px-0'>
-                                    <li><a href="">Contratar empleados</a></li>
-                                    <li><a href="">Contratar trabajadores independientes</a></li>
-                                    <li><a href="">Ejecuta los Pagos Globales</a></li>
-                                    <li><a href="">App Store</a></li>
-                                    <li><a href="">API de Deel</a></li>
-                                </ul>
-                            </div>
-                            <div className="d-none d-lg-block col-lg-2">
-                                <h5>Soluciones</h5>
-                                <ul className='px-0'>
-                                    <li><a href="">Compliance</a></li>
-                                    <li><a href="">Pagos</a></li>
-                                    <li><a href="">Para equipos financieros</a></li>
-                                    <li><a href="">Para equipos legales</a></li>
-                                    <li><a href="">Para recursos humanos</a></li>
-                                    <li><a href="">Startup</a></li>
-                                    <li><a href="">Empresas</a></li>
-                                    <li><a href="">Deel Solutions: España</a></li>
-                                    <li><a href="">Deel Solutions: Francia</a></li>
-                                </ul>
-                            </div>
-                            <div className="d-none d-lg-block col-lg-2">
-                                <h5>Recursos</h5>
-                                <ul className='px-0'>
-                                    <li><a href="">Sobre Deel</a></li>
-                                    <li><a href="">Blog</a></li>
-                                    <li><a href="">Centro de soporte</a></li>
-                                    <li><a href="">Guia de Contratacion Global</a></li>
-                                    <li><a href="">Programa de partners</a></li>
-                                    <li><a href="">Afiliados</a></li>
-                                    <li><a href="">Casos de Exito</a></li>
-                                    <li><a href="">Trabaja con nosotros</a></li>
-                                    <li><a href="">Glosario</a></li>
-                                    <li><a href="">Press (Prensa)</a></li>
-                                    <li><a href="">Estado del servicio</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="row py-5">
-                            <div className="col-12 d-lg-none">
-                                <div class="accordion bg-dark text-start" id="accordionExample">
-                                    <div class="accordion-item bg-dark">
-                                        <h2 class="accordion-header bg-dark">
-                                        <button class="accordion-button bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            <h5>Como funciona</h5>
-                                        </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body bg-dark">
-                                                <ul className='px-0'>
-                                                    <li><a href="">Contratar empleados</a></li>
-                                                    <li><a href="">Contratar trabajadores independientes</a></li>
-                                                    <li><a href="">Ejecuta los Pagos Globales</a></li>
-                                                    <li><a href="">App Store</a></li>
-                                                    <li><a href="">API de Deel</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item bg-dark">
-                                        <h2 class="accordion-header bg-dark">
-                                        <button class="accordion-button bg-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <h5>Soluciones</h5>
-                                        </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body bg-dark">
-                                                <ul className='px-0'>
-                                                    <li><a href="">Compliance</a></li>
-                                                    <li><a href="">Pagos</a></li>
-                                                    <li><a href="">Para equipos financieros</a></li>
-                                                    <li><a href="">Para equipos legales</a></li>
-                                                    <li><a href="">Para recursos humanos</a></li>
-                                                    <li><a href="">Startup</a></li>
-                                                    <li><a href="">Empresas</a></li>
-                                                    <li><a href="">Deel Solutions: España</a></li>
-                                                    <li><a href="">Deel Solutions: Francia</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item bg-dark">
-                                        <h2 class="accordion-header bg-dark">
-                                        <button class="accordion-button bg-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            <h5>Recursos</h5>
-                                        </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body bg-dark">
-                                                <ul className='px-0'>
-                                                    <li><a href="">Sobre Deel</a></li>
-                                                    <li><a href="">Blog</a></li>
-                                                    <li><a href="">Centro de soporte</a></li>
-                                                    <li><a href="">Guia de Contratacion Global</a></li>
-                                                    <li><a href="">Programa de partners</a></li>
-                                                    <li><a href="">Afiliados</a></li>
-                                                    <li><a href="">Casos de Exito</a></li>
-                                                    <li><a href="">Trabaja con nosotros</a></li>
-                                                    <li><a href="">Glosario</a></li>
-                                                    <li><a href="">Press (Prensa)</a></li>
-                                                    <li><a href="">Estado del servicio</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                    <div className="col-12 col-md-3">
+                        <ul className='p-0'>
+                            <li className='my-0 mb-3'>
+                                <h6 className='fw-bold'>La ventaja de Deel</h6>
+                            </li>
+                            <li className='my-0 mb-3'><a className='text-decoration-none' href="">Compliance</a></li>
+                            <li className='my-0 mb-3'><a className='text-decoration-none' href="">Seguridad de datos</a></li>
+                        </ul>
                     </div>
-                    <div className="col-12">
-
+                    <div className="col-12 col-md-3">
+                        <div className="row">
+                            <h6 className='fw-bold'>Para industrias</h6>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">Fintech</a></div>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">Tecnologia educativa</a></div>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">Servicios de TI</a></div>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">Marketing y publicidad</a></div>
+                            <div className="col-6 col-md-12 my-2"><a className='text-decoration-none' href="">Todas las industrias</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row py-5 text-start border-bottom">
+                    <div className="col-12 col-md-4 col-xl-2 my-2">
+                        <img src="https://deel-website-media-prod.s3.amazonaws.com/logo_revamp_white_3237bd2303.svg" className='img-fluid' alt="" />
+                        <div className="d-flex my-4">
+                            <a className='link-black rounded-5 p-0 me-3' href=""><img className='img-fluid' src="https://www.deel.com/_next/static/media/twitter-filled.8731c38f.svg" alt="" /></a>
+                            <a className='link-black rounded-5 p-0 me-3' href=""><img className='img-fluid' src="https://www.deel.com/_next/static/media/linkedin-filled.7436820c.svg" alt="" /></a>
+                            <a className='link-black rounded-5 p-0 me-3' href=""><img className='img-fluid' src="https://www.deel.com/_next/static/media/facebook-filled.9dee679d.svg" alt="" /></a>
+                            <a className='link-black rounded-5 p-0 me-3' href=""><img className='img-fluid' src="https://www.deel.com/_next/static/media/instagram-filled.a70f7d56.svg" alt="" /></a>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-8 col-xl-5 my-2">
+                        <h4 className='fw-semibold'>Recibe directamente en tu bandeja de entrada la informacion mas reciente sobre el mundo laboral actual.</h4>
+                    </div>
+                    <div className="col-12 col-xl-5 my-2">
+                        <input type="email" class="form-control p-3 rounded-5 mb-3" id="exampleFormControlInput1" placeholder="What's your e-mail?"/>
+                        <span className='color-grey'>I confirm that I have read <a className='text-decoration-none' href="">Deel's Privacy Policy</a> and agree with it.</span>
+                    </div>
+                </div>
+                <div className="row py-4">
+                    <div className="col-12 col-lg-6 py-3 text-start">
+                        <span className='color-grey'>Copyright 2024. Todos los derechos reservados.</span>
+                    </div>
+                    <div className="col-lg-6 py-3">
+                        <div className="row">
+                            <div className="col-auto"><a className='color-grey text-decoration-none' href="">Aviso legal</a></div>
+                            <div className="col-auto"><a className='color-grey text-decoration-none' href="">Politica de privacidad</a></div>
+                            <div className="col-auto"><a className='color-grey text-decoration-none' href="">Terminos del servicio</a></div>
+                            <div className="col-auto"><a className='color-grey text-decoration-none' href="">Whistleblower Policy</a></div>
+                        </div>
                     </div>
                 </div>
             </div>
