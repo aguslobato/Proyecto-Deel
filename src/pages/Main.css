@@ -1,5 +1,6 @@
 body{
     background-color: #fffbf4;
+    font-family: "Roboto", sans-serif !important;
 }
 p{
     font-size: 18px;
@@ -20,12 +21,14 @@ span{
     font-size: 14px;
     font-weight: 500;
 }
+.color-grey{
+    color: rgba(27, 27, 27, 0.85);
+}
 .bg-light-blue{
     background-color: #b1d8fc;
 }
 .bg-dark{
     background-color: #1b1b1b !important;
-    color: white;
 }
 .bg-cream{
     background-color: #ffeba6;
@@ -36,6 +39,17 @@ span{
 }
 .bg-white{
     background-color: white;
+}
+.bg-dark *{
+    color: white;
+}
+.bg-dark .card-transparent span{
+    color: darkgoldenrod !important;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.bg-dark .card-transparent h5{
+    font-size: 13px;
 }
 .container-bg-cream{
     background-image: url(https://deel-website-media-prod.s3.amazonaws.com/Coverage_Illustration_min_0a71b2d215.png);
@@ -106,13 +120,20 @@ span{
     font-size: 30px;
 }
 .mini-cards-color .card{
-    min-height: 300px;
+    min-height: 250px;
+}
+.pricing .mini-cards-color .card{
+    min-height: 400px;
 }
 .cards-color .card{
     height: 700px;
 }
 .cards-color .link-black{
     font-size: 15px;
+}
+.mini-cards-color .card-footer img{
+    width: 50px;
+    height: 50px;
 }
 .mini-cards-color .card h3{
     font-size: 20px;
@@ -124,6 +145,12 @@ span{
     background-color: #C7E2FE;
 }
 .card-violet{
+    background-color: #c4b1f9;
+}
+.card-light-violet{
+    background-color: #e1d7fb;
+}
+.card-light-violet:hover{
     background-color: #c4b1f9;
 }
 .card-pink{
@@ -194,4 +221,18 @@ span{
 }
 .card-border-blue p{
     font-size: 14px;
+}
+.img-icon{
+    min-height: auto;
+    height: 100%;
+}
+.img-icon p{
+    font-size: 16px;
+    color: rgba(27, 27, 27, 0.85);
+}
+.img-icon h4{
+     font-size:  1.5rem;;
+}
+.img-icon img{
+    height: 96px;
 }

@@ -271,6 +271,166 @@ function Pricing () {
                             </div>
                         </div>
                     </div>
+                    <div className="row py-5">
+                        <div className="col-12 col-lg-6 offset-lg-3 mb-5">
+                            <span>ADD-ONS OPCIONALES</span>
+                            <h3>Disfruta de complementos flexibles que te ayudaran a hacer crecer tu equipo global</h3>                            
+                        </div>
+                        <div className="col-6 col-md-4 p-4 img-icon my-3">
+                            <img className="img-fluid mb-2" src="https://deel-website-media-prod.s3.amazonaws.com/Background_Checks_da51fb98ec.png" alt="" />
+                            <h4>Background Checks</h4>
+                            <p>Automatiza la seleccion de nuevos empleados</p>
+                            <a href="" className="link-white">Conoce mas</a>
+                        </div>
+                        <div className="col-6 col-md-4 p-4 img-icon my-3">
+                            <img className="img-fluid mb-2" src="https://deel-website-media-prod.s3.amazonaws.com/Equipment_5472e3c5ca.png" alt="" />
+                            <h4>Equipo</h4>
+                            <p>Equipa a los nuevos empleados en cualquier lugar</p>
+                            <a href="" className="link-white">Conoce mas</a>
+                        </div>
+                        <div className="col-6 col-md-4 p-4 img-icon my-3">
+                            <img className="img-fluid mb-2" src="https://deel-website-media-prod.s3.amazonaws.com/Coworking_37e4d71617.png" alt="" />
+                            <h4>Espacios de trabajo</h4>
+                            <p>Proporciona acceso a WeWork</p>
+                            <a href="" className="link-white">Conoce mas</a>
+                        </div>
+                        <div className="col-6 col-md-4 p-4 img-icon my-3">
+                            <img className="img-fluid mb-2" src="https://deel-website-media-prod.s3.amazonaws.com/Deel_Shield_2f63c6f5a1.png" alt="" />
+                            <h4>Deel Contratista registrado</h4>
+                            <p>Evita la clasificacion erronea</p>
+                            <a href="" className="link-white">Conoce mas</a>
+                        </div>
+                        <div className="col-6 col-md-4 p-4 img-icon my-3">
+                            <img className="img-fluid mb-2" src="https://deel-website-media-prod.s3.amazonaws.com/Equity_d8f4dd422f.png" alt="" />
+                            <h4>Equity</h4>
+                            <p>Gestiona las stock options de forma legal</p>
+                            <a href="" className="link-white">Conoce mas</a>
+                        </div>
+                        <div className="col-6 col-md-4 p-4 img-icon my-3">
+                            <img className="img-fluid mb-2" src="https://deel-website-media-prod.s3.amazonaws.com/Location_Pin_833a61e26d.png" alt="" />
+                            <h4>Configuracion de entidad</h4>
+                            <p>Amplia tus operaciones comerciales</p>
+                            <a href="" className="link-white">Conoce mas</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="bg-light-blue py-5">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 col-md-6 pe-5 align-self-center text-start">
+                            <span>COBERTURA GLOBAL</span>
+                            <h3 className="fw-bolder">Contrata y paga a tu equipo global en mas de 150 paises</h3>
+                            <select class="form-select rounded-5 p-3 my-4" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">
+                                    <div className="d-flex">
+                                        <img src="https://deel-website-media-prod.s3.amazonaws.com/flag_Bahrain_29a303c6d7.svg" className="img-fluid h-100 w-100" alt="" />
+                                        <h5>Bahrain</h5>
+                                    </div>
+                                </option>
+                                <option value="2"></option>
+                                <option value="3"></option>
+                            </select>
+                        </div>
+                        <div className="col-12 col-md-6 p-5">
+                            <img src="https://deel-website-media-prod.s3.amazonaws.com/Coverage_Teaser_min_5d9c6ade16.jpg" alt="" className="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="py-5">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 col-xl-6 text-start">
+                            <h3>Descubre por que mas de 35.000 empresas lideres mundiales confian en Deel</h3>
+                        </div>
+                        <div className="col-12 border-bottom py-5">
+                            <div className="row">
+                                <div className="d-flex overflow-x-auto mini-cards-color">
+                                    <div className="col-12 col-md-5 me-4 my-3">
+                                        <div className="card rounded-4 card-yellow d-flex flex-column justify-content-between p-4 text-start">
+                                            <div className="card-head py-3 mb-2">
+                                                <img src="https://deel-website-media-prod.s3.amazonaws.com/logo_turing_black_f8baadc2a5.svg" alt="" />
+                                            </div>
+                                            <div className="card-body mx-0 py-4 border-0 px-0">
+                                                <h3>Antes de que Deel contratara y pagara a nuestro equipo global, todo era un calvario. Ahora, para nuestros cientos de trabajadores independientes, podemos gestionar sus contratos, compliance y pagos en un solo lugar. Deel ha cambiado el mundo de la contaminacion remota para nosotros.</h3>
+                                            </div>
+                                            <div className="card-footer px-0 bg-transparent border-0 d-flex align-items-center">
+                                                <img src="https://deel-website-media-prod.s3.amazonaws.com/client_turing_jonathan_siddharth_c38e774f22.png" className="me-3" alt="" />
+                                                <div className="d-flex flex-column">
+                                                    <span>Jonathan Siddharth</span>
+                                                    <span>CEO de Turing</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-12 col-md-5 me-4 my-3">
+                                        <div className="card rounded-4 card-light-blue d-flex flex-column justify-content-between p-4 text-start">
+                                            <div className="card-head py-3 mb-2">
+                                                <img src="https://deel-website-media-prod.s3.amazonaws.com/logo_mainstreet_black_c942131ed9.svg" alt="" />
+                                            </div>
+                                            <div className="card-body mx-0 py-4 border-0 px-0">
+                                                <h3>"A nuestros equipos les gusta mucho Deel. Ha facilitado las cosas para ambas partes. Tenemos informes sobre lo que hemos pagado a nuestros contratistas y pueden ver el historial de sus pagos en un solo lugar".</h3>
+                                            </div>
+                                            <div className="card-footer px-0 bg-transparent border-0 d-flex align-items-center">
+                                                <img src="https://deel-website-media-prod.s3.amazonaws.com/client_mainstreet_doug_ludlow_7d41b70803.png" className="me-3" alt="" />
+                                                <div className="d-flex flex-column">
+                                                    <span>Doug Ludlow</span>
+                                                    <span>CEO de MainStreet</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-12 col-md-5 me-4 my-3">
+                                        <div className="card rounded-4 card-violet d-flex flex-column justify-content-between p-4 text-start">
+                                            <div className="card-head py-3 mb-2">
+                                                <img src="https://deel-website-media-prod.s3.amazonaws.com/logo_makerpad_black_06909f3327.svg" alt="" />
+                                            </div>
+                                            <div className="card-body mx-0 py-4 border-0 px-0">
+                                                <h3>“Deel ha hecho súper simple para una pequeña empresa global contratar y pagar a la gente. La plataforma es extremadamente fácil de navegar, realmente fácil de usar y el soporte de Deel ha ido más allá de cualquier solicitud que hayamos tenido”.</h3>
+                                            </div>
+                                            <div className="card-footer px-0 bg-transparent border-0 d-flex align-items-center">
+                                                <img src="https://deel-website-media-prod.s3.amazonaws.com/client_makerpad_ben_tossel_251405ea5a.png" className="me-3" alt="" />
+                                                <div className="d-flex flex-column">
+                                                    <span>DBen Tossel</span>
+                                                    <span>Fundador de Makerpad</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="bg-light-blue py-5">
+                <div className="container py-5">
+                    <div className="row">
+                        <div className="col-12 col-md-8 offset-md-2">
+                            <h3 className="mb-5 fw-semibold">Deel facilita el crecimiento de los equipos remotos e internacionales</h3>
+                        </div>
+                        <div className="col-12 col-md-4">
+                            <h1>150+</h1>
+                            <h4 className="color-grey">paises</h4>
+                        </div>
+                        <div className="col-12 col-md-4">
+                            <h1>35.000+</h1>
+                            <h4 className="color-grey">clientes</h4>
+                        </div>
+                        <div className="col-12 col-md-4">
+                            <h1>200+</h1>
+                            <h4 className="color-grey">expertos internos</h4>
+                        </div>
+                        <div className="col-12 my-5">
+                            <a href="" className="link-black py-3 px-4 fw-semibold">Agendar un demo</a>         
+                        </div>
+                        
+                    </div>
                 </div>
             </section>
 

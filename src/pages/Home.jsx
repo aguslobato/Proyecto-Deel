@@ -1,6 +1,6 @@
 import './Main.css'
 import './Medias-queries.css'
-
+import g2 from '../images/g2.png'
 
 function Home () {
     return (
@@ -308,7 +308,6 @@ function Home () {
                             </div>                            
                         </div>
                     </div>
-
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="nav-contratacion" role="tabpanel" aria-labelledby="nav-contratacion-tab" tabindex="0">
                             <div className="row py-5 my-5">
@@ -386,15 +385,6 @@ function Home () {
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
                     <div className="row">
                         <h2>Empieza a usar Deel en tres sencillos pasos</h2>
                         <div className="col-12 col-lg-6 py-4">
@@ -439,6 +429,64 @@ function Home () {
                             <img src="https://deel-website-media-prod.s3.amazonaws.com/Bar_Graph_Window_9c570c3eda.png" alt="" className="img-fluid" />
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <section className="bg-dark py-5">
+                <div className="container">
+                    <div className="row text-start py-3">
+                        <div className="col-1"><img src={g2} alt="" className="img-fluid" /></div>
+                        <div className="col-11 align-self-center">
+                            <h3>Mira lo que dicen los clientes de Deel</h3>
+                            <p>Based on <a href="">3784+ reviews</a></p>
+                        </div>
+                    </div>
+                    <div className="row text-start py-3">
+                    <div className="d-flex overflow-x-auto mini-cards-color">
+                        <div className="col-12 col-md-4 me-4 my-3">
+                            <div className="card card-transparent border-0 d-flex flex-column p-4">
+                                <h5>Usuario verificado en telecomunicaciones</h5>
+                                <span className='star'>★★★★★</span>
+                                <p>Deel ha revolucionado la forma en que gestiono la nómina. Es confiable, fácil de usar y rentable, por lo que también es indispensable...</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-4 me-4 my-3">
+                            <div className="card card-transparent border-0 d-flex flex-column p-4">
+                                <h5>Usuario verificado en telecomunicaciones</h5>
+                                <span className='star'>★★★★</span>
+                                <p>Deel ha sido un cambio radical para mí. Su plataforma es increíblemente fácil de usar. Desde la optimización de mi proceso de nómina hasta...</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-4 me-4 my-3">
+                            <div className="card card-transparent border-0 d-flex flex-column p-4">
+                                <h5>Usuario verificado en telecomunicaciones</h5>
+                                <span className='star'>★★★★★</span>
+                                <p>La plataforma es increíblemente intuitiva, lo que me facilita navegar y hacer las cosas de forma eficiente. Además de eso, su...</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-4 me-4 my-3">
+                            <div className="card card-transparent border-0 d-flex flex-column p-4">
+                                <h5>Usuario verificado en telecomunicaciones</h5>
+                                <span className='star'>★★★★★</span>
+                                <p>Hasta ahora ha sido muy fácil navegar por Deel y todo está diseñado con elegancia para que sea fácil de seguir.</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-4 my-3">
+                            <div className="card card-transparent border-0 d-flex flex-column p-4">
+                                <h5>Usuario verificado en telecomunicaciones</h5>
+                                <span className='star'>★★★★★</span>
+                                <p>Es fácil de usar y la seguridad es fabulosa.</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-4 me-4 my-3">
+                            <div className="card card-transparent border-0 d-flex flex-column p-4">
+                                <h5>Usuario verificado en telecomunicaciones</h5>
+                                <span className='star'>★★★★★</span>
+                                <p>Deel ha revolucionado la forma en que gestiono la nómina. Es confiable, fácil de usar y rentable, por lo que también es indispensable...</p>
+                            </div>
+                        </div>
+                    </div>                                
+                </div>
                 </div>
             </section>
 

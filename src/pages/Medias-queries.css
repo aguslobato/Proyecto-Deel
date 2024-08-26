@@ -22,19 +22,10 @@
     }
     .dropdown-menu.show {
         display: flex;
-        width: 800px;
+        width: 1200px;
         border-radius: 30px;
         padding: 30px;
-    }
-    .dropdown-menu.show.fondo-nav{
-        height: 100vh;
-        background: #021f37;
-        opacity: .4;
-        position: absolute;
-        left: -100vw;
-        right: -100vw;
-        top: 72px;
-        z-index: 1;
+        top: 80px;
     }
     .dropdown-left .dropdown-menu.show{
         left: -200px;
